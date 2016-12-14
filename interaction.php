@@ -52,6 +52,7 @@ abstract class Unit {
 		show("{$this->name} ahora tiene {$this->hp} puntos de vida");
 	}
 }
+// 
 
 class Soldier extends Unit
 {
