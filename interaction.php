@@ -35,15 +35,20 @@ abstract class Unit {
 	{
 		$this->setHp($this->hp - $damage);
 
-		if ($this->hp() <= 0) {
-			$this->die();
+		if ($this->hp <= 0) {
+			$this->muere();
 		}
 	}
 
-	public function die()
+
+	public function muere()
 	{
 		show("{$this->name} muere");
 	}
+	// public function die()
+	// {
+	// 	show($this->name);
+	// }
 
 	private function setHp($points)
 	{
