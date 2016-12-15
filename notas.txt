@@ -1,3 +1,5 @@
 ** Cuando una propiedad o metodo es publico se puede acceder a ella desde cualquier parte del programa, siempre que tengamos un objeto que represente esta clase. Si es pritegido o privado solo podemos usarlo dentro de la clase.
 
 **Getter: Metodo que nos permite obtener informacion sobre una propiedad y se suele comenzar con el prefijo "getAlgo()".
+
+**Polimorfismo: Multiples formas.
